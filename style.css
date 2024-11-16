@@ -1,0 +1,27 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+}
+:color{
+    --blanco: #ffff;
+
+}
+
+.carta{
+    font-size:6rem;
+    display: flexbox;
+    flex-direction: column;
+    height: 1rem;
+    text-align: center;
+}
+
+#pica_inferior{
+    transform: rotateX(-180grad);
+    text-align: right 2em,2px;
+}
+
+#pica_superior{
+    text-align: left;
+}
